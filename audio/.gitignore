@@ -1,0 +1,6 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+
+# The purpose of this .gitignore is to ensure the audio directory is in the repo
