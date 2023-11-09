@@ -14,8 +14,8 @@ You should be able to just copy and paste this whole thing into the terminal and
 brew install python3
 
 # Clone this repo and cd into it
-git clone # TODO: Add repo url
-cd # TODO: Add repo name
+git clone https://github.com/ejenk0/transcribe.git ~
+cd ~/transcribe
 
 # Setup python virtual environment for this project
 python3 -m venv venv
@@ -25,9 +25,6 @@ source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
-
-# Make the script executable
-chmod +x transcribe.py
 
 # Copy the example env
 cp .env.example .env
@@ -42,7 +39,7 @@ Place the audio file(s) you want to transcribe in the `audio` directory. Then ru
 
 ```shell
 # cd into the project directory
-cd # TODO: Add repo name
+cd ~/transcribe
 
 # Run the script
 ./transcribe.py
